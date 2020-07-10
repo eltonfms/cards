@@ -1,0 +1,41 @@
+/**
+ * objects/_color.scss
+ */
+
+// text colors
+.c {
+  &-1 {
+    color: var(--colorPrimary);
+  }
+  &-2 {
+    color: var(--colorSecondary);
+  }
+  &-dark {
+    color: var(--colorDark);
+  }
+  &-gray {
+    color: var(--colorGray);
+  }
+  &-light {
+    color: var(--colorLight);
+  }
+}
+
+// backgrounds
+.b {
+  &-1 {
+    background-color: var(--colorPrimary);
+  }
+  &-2 {
+    background-color: var(--colorSecondary);
+  }
+  &-dark {
+    background-color: var(--colorDark);
+  }
+  &-gray {
+    background-color: var(--colorGray);
+  }
+  &-light {
+    background-color: var(--colorLight);
+  }
+}
