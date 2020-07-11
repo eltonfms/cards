@@ -2,7 +2,7 @@
  * components/_typography.scss
  */
 
-:root {
+ :root {
   font-size: 16px;
 
   @media (max-width: 339px) and (orientation: portrait) {
@@ -14,7 +14,7 @@
   }
 
   @media (min-width: 992px) {
-    font-size: 20px;
+    font-size: 24px;
   }
 }
 
@@ -37,6 +37,17 @@ p {
 
 .title {
   font-weight: bold;
+
+  &.-large {
+    font-size: 1.5rem;
+    line-height: 1.655;
+    font-weight: 800;
+  }
+
+  &.-median {
+    font-size: 1rem;
+    line-height: 1.655;
+  }
 }
 
 .text {

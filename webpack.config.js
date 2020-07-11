@@ -17,6 +17,12 @@ module.exports = {
             }
           }
         ]
+      },
+      { 
+        test: /\.(woff|woff2|eot|ttf|svg)(\?.*$|$)/, 
+        use: {
+          loader: "file-loader"
+        }
       }
     ]
   },
