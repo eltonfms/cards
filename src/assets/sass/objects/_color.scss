@@ -10,6 +10,12 @@
   &-2 {
     color: var(--colorSecondary);
   }
+  &-3 {
+    color: var(--colorTertiary);
+  }
+  &-4 {
+    color: var(--colorQuaternary);
+  }
   &-dark {
     color: var(--colorDark);
   }
@@ -28,6 +34,12 @@
   }
   &-2 {
     background-color: var(--colorSecondary);
+  }
+  &-3 {
+    background-color: var(--colorTertiary);
+  }
+  &-4 {
+    background-color: var(--colorQuaternary);
   }
   &-dark {
     background-color: var(--colorDark);

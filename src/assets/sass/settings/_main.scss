@@ -8,6 +8,8 @@ $font: 'Open Sans', Verdana, Arial, sans-serif;
 // colors
 $color-primary: #3DDB93;
 $color-secondary: #468D73;
+$color-tertiary: #404542;
+$color-quaternary: #5498D8;
 
 $color-dark: #000000; 
 $color-gray: #666666;
@@ -45,6 +47,8 @@ body {
 
    --colorPrimary: #{$color-primary};
    --colorSecondary: #{$color-secondary};
+   --colorTertiary: #{$color-tertiary};
+   --colorQuaternary: #{$color-quaternary};
 
    --colorDark: #{$color-dark};
    --colorGray: #{$color-gray};

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Styleguide msg="Cars Styleguide"/>
+    <Styleguide msg="Cards Styleguide"/>
   </div>
 </template>
 
