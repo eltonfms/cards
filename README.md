@@ -1,5 +1,15 @@
 # cards
 
+## Page Styleguide
+```
+http://localhost:8080/styleguide
+```
+
+## Page Detail Product
+```
+http://localhost:8080/
+```
+
 ## Project setup
 ```
 yarn install
