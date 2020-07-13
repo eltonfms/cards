@@ -8,6 +8,11 @@
     width: 100%;
   }
 
+  &-25 {
+    width: 25px;
+    max-width: 100%;
+  }
+
   &-60 {
     width: 60px;
     max-width: 100%;
@@ -27,12 +32,26 @@
     width: 200px;
     max-width: 100%;
   }
+
+  &-210 {
+    width: 210px;
+    max-width: 100%;
+  }
+
+  &-418 {
+    width: 418px;
+    max-width: 100%;
+  }
 }
 
 .h {
 
   &-full  {
     height: 100%;
+  }
+
+  &-25 {
+    height: 25px;
   }
 
   &-60 {
@@ -49,5 +68,13 @@
 
   &-200 {
     height: 200px;
+  }
+
+  &-210 {
+    height: 210px;
+  }
+
+  &-418 {
+    height: 210px;
   }
 }

@@ -107,7 +107,7 @@
   
     &.-clean {
       color: var(--colorTertiary);
-      background: none;
+      background: var(--colorLight);
   
       &:hover {
         color: var(--colorLight);
@@ -172,5 +172,9 @@
       width: 12px;
       height: 12px;
     }
+  }
+
+  &.-full {
+    width: 100%;
   }
 }
